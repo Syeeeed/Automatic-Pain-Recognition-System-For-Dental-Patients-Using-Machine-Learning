@@ -1,6 +1,7 @@
 # Automatic Pain Recognition System for Dental Patients Using Machine Learning
 
-🚧 **Status:** Completed Research 
+🚧 **Status:** Completed Research 📄 Publication: 🔗 https://perintis.org.my/ejournalperintis/index.php/PeJ/article/view/164
+
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/357a80ee-28a3-42c2-bf10-9c3f889d782d" />
 
