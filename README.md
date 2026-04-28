@@ -118,3 +118,6 @@ Signals are sampled, filtered, and preprocessed before training.
 
 ## Vision
 To develop an intelligent, real-time, and reliable pain assessment system for clinical environments, improving decision-making and patient care in dentistry. 
+
+> ⚠️ **Data Availability**  
+> As real human bio-signals were used, the dataset and backend processing details are **not publicly available** but can be **accessed upon reasonable request**.
