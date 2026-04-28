@@ -1,18 +1,18 @@
 # Automatic Pain Recognition System for Dental Patients Using Machine Learning
 
-🚧 **Status:** Completed Research / Extendable for Future Work
+🚧 **Status:** Completed Research 
 
 ---
 
 ## Overview
-This project presents a machine learning-based system for automatic pain recognition in dental patients using bio-signals. The system objectively classifies pain levels into **High Pain, Mild Pain, and No Pain**, reducing reliance on subjective patient feedback during treatment. :contentReference[oaicite:0]{index=0}
+This project presents a machine learning-based system for automatic pain recognition in dental patients using bio-signals. The system objectively classifies pain levels into **High Pain, Mild Pain, and No Pain**, reducing reliance on subjective patient feedback during treatment. 
 
 ---
 
 ## Problem Statement
 - Patients struggle to communicate pain accurately during dental procedures  
 - Self-reporting is subjective and inconsistent  
-- Misinterpretation of pain disrupts treatment efficiency :contentReference[oaicite:1]{index=1}
+- Misinterpretation of pain disrupts treatment efficiency 
 
 ---
 
@@ -22,13 +22,13 @@ This project presents a machine learning-based system for automatic pain recogni
 - Sensors collect physiological signals  
 - Raspberry Pi acts as processing unit  
 - Python (Jupyter Notebook) used for model training/testing  
-- Output delivered via visual + voice interface :contentReference[oaicite:2]{index=2}
+- Output delivered via visual + voice interface 
 
 ---
 
 ## System Flow (Actual Flow from Paper)
 (From *Figure 1 – Page 4*)
-:contentReference[oaicite:3]{index=3}
+
 
 ---
 
@@ -45,7 +45,7 @@ This project presents a machine learning-based system for automatic pain recogni
 - EEG: Forehead / scalp  
 - EMG: Jaw muscles  
 
-Signals are sampled, filtered, and preprocessed before training. :contentReference[oaicite:4]{index=4}
+Signals are sampled, filtered, and preprocessed before training. 
 
 ---
 
@@ -53,7 +53,7 @@ Signals are sampled, filtered, and preprocessed before training. :contentReferen
 - ECG sampled at **500 Hz**  
 - Filtering using **MATLAB (bandpass filters)**  
 - Feature extraction from ECG, EEG, EMG  
-- Normalization before ML input :contentReference[oaicite:5]{index=5}
+- Normalization before ML input 
 
 ---
 
@@ -66,12 +66,12 @@ Signals are sampled, filtered, and preprocessed before training. :contentReferen
 - SGD Classifier  
 - Linear SVC  
 - AdaBoost  
-- Multinomial Naive Bayes :contentReference[oaicite:6]{index=6}
+- Multinomial Naive Bayes 
 
 ### Training Setup
 - **80% training / 20% testing split**  
 - Input: Bio-signals  
-- Output: Pain classification :contentReference[oaicite:7]{index=7}
+- Output: Pain classification 
 
 ---
 
@@ -80,12 +80,12 @@ Signals are sampled, filtered, and preprocessed before training. :contentReferen
 - **Accuracy:** 65.1%  
 - **Precision:** 0.56  
 - **Recall:** 0.56  
-- **F1 Score:** 0.56 :contentReference[oaicite:8]{index=8}
+- **F1 Score:** 0.56 
 
 ### Insight (Page 10–11)
 - Random Forest performed best across all metrics  
 - KNN showed highest recall  
-- Other models underperformed due to nonlinear signal complexity :contentReference[oaicite:9]{index=9}
+- Other models underperformed due to nonlinear signal complexity 
 
 ---
 
@@ -94,7 +94,7 @@ Signals are sampled, filtered, and preprocessed before training. :contentReferen
 
 - Graph showing probability of pain levels  
 - Voice output announcing predicted pain  
-- Combined visual + auditory feedback for better usability :contentReference[oaicite:10]{index=10}
+- Combined visual + auditory feedback for better usability 
 
 ---
 
@@ -102,22 +102,7 @@ Signals are sampled, filtered, and preprocessed before training. :contentReferen
 - Low-cost, non-invasive pain detection system  
 - Multi-modal bio-signal integration (ECG + EEG + EMG)  
 - Objective alternative to subjective pain reporting  
-- Real-time classification capability :contentReference[oaicite:11]{index=11}
-
----
-
-## Limitations
-- Small dataset (8 subjects)  
-- No real dental patient data during treatment  
-- Moderate accuracy (65.1%) :contentReference[oaicite:12]{index=12}
-
----
-
-## Future Work
-- Collect real patient data during dental procedures  
-- Increase dataset size  
-- Use advanced deep learning models  
-- Integrate medical-grade sensors for better accuracy :contentReference[oaicite:13]{index=13}
+- Real-time classification capability 
 
 ---
 
@@ -129,4 +114,4 @@ Signals are sampled, filtered, and preprocessed before training. :contentReferen
 ---
 
 ## Vision
-To develop an intelligent, real-time, and reliable pain assessment system for clinical environments, improving decision-making and patient care in dentistry. :contentReference[oaicite:14]{index=14}
+To develop an intelligent, real-time, and reliable pain assessment system for clinical environments, improving decision-making and patient care in dentistry. 
