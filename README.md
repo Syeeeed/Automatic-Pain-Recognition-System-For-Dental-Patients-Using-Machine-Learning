@@ -20,7 +20,7 @@ This project presents a machine learning-based system for automatic pain recogni
 ---
 
 ## System Architecture
-(From *Figure 2 – Block Diagram, Page 5*)
+
 
 - Sensors collect physiological signals  
 - Raspberry Pi acts as processing unit  
@@ -30,7 +30,7 @@ This project presents a machine learning-based system for automatic pain recogni
 ---
 
 ## System Flow (Actual Flow from Paper)
-(From *Figure 1 – Page 4*)
+
 
 
 ---
@@ -93,7 +93,7 @@ Signals are sampled, filtered, and preprocessed before training.
 ---
 
 ## Output System
-(From *Figure 13 – Page 12*)
+
 
 - Graph showing probability of pain levels  
 - Voice output announcing predicted pain  
