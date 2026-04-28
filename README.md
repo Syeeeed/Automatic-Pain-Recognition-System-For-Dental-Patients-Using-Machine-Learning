@@ -85,7 +85,7 @@ Signals are sampled, filtered, and preprocessed before training.
 - **Recall:** 0.56  
 - **F1 Score:** 0.56 
 
-### Insight (Page 10–11)
+### Insight 
 - Random Forest performed best across all metrics  
 - KNN showed highest recall  
 - Other models underperformed due to nonlinear signal complexity 
